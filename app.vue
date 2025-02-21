@@ -40,7 +40,78 @@
         <button class="hover:text-white transition cursor-pointer">Español</button>
       </div>
     </div>
-    <div class="w-[86%] px-3 py-2 bg-neutral-900">Content</div>
+    
+    <div class="w-[86%] bg-neutral-900 overflow-scroll">
+      <div class="bg-green-500 sticky top-0">
+        Foo bar
+      </div>
+      <div class="px-10 pt-10 pb-28">
+       <div>
+        <div class="flex justify-between">
+          <h2 ><a href="" class="text-2xl font-bold hover:underline">Escuchados recientemente</a></h2>
+          <button class="text-gray-400 font-bold text-sm hover:underline cursor-pointer">Mostrar todos</button>
+        </div>
+        <div class="mt-8 grid grid-rows-1 grid-cols-7 gap-x-5">
+          
+          <div class="group h-[16rem] bg-neutral-800 hover:bg-neutral-700 rounded cursor-pointer">
+            <div class="relative">
+              <div class="size-36 object-cover rounded-full mx-auto mt-4 overflow-hidden ">
+                <img class="w-full h-full object-cover" src="/images/sacoto.jpeg" alt="">
+              </div>
+              <button class="absolute right-5 bottom-1 translate-y-5 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-16 text-green-500">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+                </svg>
+              </button>
+            </div>
+            <div class="mx-5 mt-5">
+              <h3 class="font-bold">Sergio Sacoto</h3>
+              <p class="text-sm text-gray-400">Artista</p>
+            </div>
+          </div>
+
+          <div class="group h-[16rem] bg-neutral-800 hover:bg-neutral-700 rounded cursor-pointer">
+            <div class="relative">
+              <div class="size-36 object-cover rounded-full mx-auto mt-4 overflow-hidden ">
+                <img class="w-full h-full object-cover" src="/images/enanitos.jpeg" alt="">
+              </div>
+              <button class="absolute right-5 bottom-1 translate-y-5 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-16 text-green-500">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+                </svg>
+              </button>
+            </div>
+            <div class="mx-5 mt-5">
+              <h3 class="font-bold">Sergio Sacoto</h3>
+              <p class="text-sm text-gray-400">Artista</p>
+            </div>
+          </div>
+
+          <div class="group h-[16rem] bg-neutral-800 hover:bg-neutral-700 rounded cursor-pointer">
+            <div class="relative">
+              <div class="size-36 object-cover rounded mx-auto mt-4 overflow-hidden ">
+                <img class="w-full h-full object-cover" src="/images/rock.jpeg" alt="">
+              </div>
+              <button class="absolute right-5 bottom-1 translate-y-5 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-16 text-green-500">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+                </svg>
+              </button>
+            </div>
+            <div class="mx-5 mt-5">
+              <h3 class="font-bold">00s Rock Anthems</h3>
+              <p class="text-sm text-gray-400">These songs rocked the 00s. Cover: Green Day</p>
+            </div>
+          </div>
+
+        </div>
+       </div>
+      </div>
+    </div>
+
     <div class="absolute bottom-0 w-full h-24 bg-neutral-900 border-t border-neutral-700">
       <div class="px-4  flex h-full justify-between">
         <div class="flex items-center gap-x-4">
