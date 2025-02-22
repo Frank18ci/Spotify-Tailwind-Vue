@@ -4,4 +4,67 @@
 
 :root {
     --font-roboto: "Roboto", sans-serif;
+
 }
+
+/*FORMA DE COLOCAR COLORES PERSONALIZADOS A TAILWIND V 4.0*/
+@theme{
+    --color-green-primary: #1DCF5D;
+    --color-green-secondary: #1FDC62;
+
+    --color-light-primary: #fff;
+    --color-light-secondary: #a7a7a7;
+    
+
+    --color-dark: #181818;
+    --color-dark-darker: #121212;
+    --color-dark-light: #282828;
+    --color-dark-lighter: #3E3E3E;
+}
+/*No esta en uso*/
+@layer utilities{
+    .text-primary-color {
+        color: #fff;
+    }
+
+    .text-secondary-color {
+        color: #a7a7a7;
+    }
+
+    .text-green-primary-color{
+        color: #1DCF5D;
+    }
+
+    .text-green-secondary-color{
+        color: #1FDC62;
+    }
+
+    .bg-primary-color{
+        background-color: #121212;
+    }
+    
+    .bg-secondary-color{
+        background-color: #181818;
+    }
+
+    .bg-tertiary-color{
+        background-color: #282828;
+    }
+
+    .bg-green-primary-color{
+        background-color: #1DCF5D;
+    }
+
+    .bg-green-secondary-color{
+        background-color: #1FDC62;
+    }
+}
+
+@layer components {
+    .button-bordered {
+        @apply px-3 py-1 border border-light-secondary rounded-full hover:border-gray-200 text-sm font-semibold transition hover:scale-105;
+    }
+}
+
+
+
