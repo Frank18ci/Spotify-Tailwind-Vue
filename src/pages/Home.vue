@@ -1,5 +1,5 @@
 <template>
- <div class="w-[86%] bg-dark overflow-scroll">
+ <div class="2xl:w-[87%] w-[76%] bg-dark overflow-scroll">
       <div class="flex justify-between px-10 py-4 bg-dark-darker sticky top-0 z-20">
         <div class="space-x-2">
           <button class="p-[.2rem] bg-dark-light rounded-full">
@@ -38,7 +38,7 @@
           <h2 ><a href="" class="text-light-primary text-2xl font-bold hover:underline">Escuchados recientemente</a></h2>
           <button class="text-light-secondary font-bold text-sm hover:underline cursor-pointer">Mostrar todos</button>
         </div>
-        <div class="mt-8 grid grid-rows-1  md:grid-cols-5 lg:grid-cols-6  xl:grid-cols-7 gap-x-5">
+        <div class="mt-8 grid grid-rows-1 lg:grid-cols-4 xl:grid-cols-5 sm:grid-cols-3 2xl:grid-cols-8  3xl:grid-cols-8 gap-x-5">
           
           <Tile
             title="Sergio Sacoto"

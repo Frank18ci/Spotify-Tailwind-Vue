@@ -20,6 +20,8 @@
     --color-dark-darker: #121212;
     --color-dark-light: #282828;
     --color-dark-lighter: #3E3E3E;
+
+    --breakpoint-3xl: 1920px;
 }
 /*No esta en uso*/
 @layer utilities{

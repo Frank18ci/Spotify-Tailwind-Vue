@@ -21,8 +21,8 @@
               </button>
             </div>
             <div class="mx-5 mt-5">
-              <h3 class="font-bold">{{title}}</h3>
-              <p class="text-sm text-light-secondary">{{subTitle}}</p>
+              <h3 class="font-bold text-light-primary">{{title}}</h3>
+              <p class="text-sm text-light-secondary overflow-hidden text-ellipsis line-clamp-2">{{subTitle}}</p>
             </div>
 
           </div>
